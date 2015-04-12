@@ -82,7 +82,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-//时不时的调用
+//时不时的调用，这个方法理解不够深刻
 - (void)widgetPerformUpdateWithCompletionHandler:(void (^)(NCUpdateResult))completionHandler {
     // Perform any setup necessary in order to update the view.
     
